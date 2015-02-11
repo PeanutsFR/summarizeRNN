@@ -1,7 +1,4 @@
 import load as ld
-#import theano
-#from theano import tensor as T
-#import numpy as np
 
 frequency = {}
 frequency = ld.create_freq_dict()

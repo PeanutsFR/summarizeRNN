@@ -1,4 +1,3 @@
-#import numpy as np
 import os
 import operator
 from collections import Counter
