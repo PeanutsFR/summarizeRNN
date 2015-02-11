@@ -1,10 +1,11 @@
 import load as ld
 
-frequency = {}
-frequency = ld.create_freq_dict()
-ld.display_freq_dict(frequency, 1000)
+freq_dict = ld.create_freq_dict() # freq_dict[word] = frequency
+top_freq_dict = ld.top_freq_dict(freq_dict, 10) # 10 best words by freq
+ld.display_dict(top_freq_dict)
 
-
+# vec_dict = ld.word_to_vec(top_freq_dict) # vec_dict[word] = vector
+# ld.display_dict(vec_dict)
 
 
 
